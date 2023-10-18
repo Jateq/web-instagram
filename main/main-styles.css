@@ -2,6 +2,7 @@ body {
     margin: 0;
     font-family: Arial, sans-serif;
     display: flex;
+    justify-content: center;
 }
 
 .navbar {
@@ -61,3 +62,242 @@ body {
     border-radius: 12px;
 }
 
+main{
+    display: flex;
+    margin-left: 230px;
+}
+
+.scroll{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.stories{
+    margin-top: 40px;
+    display: flex;
+    gap: 25px;
+}
+.story{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-content: center;
+    align-items: center;
+    flex-direction: column;
+    cursor: pointer;
+}
+.story-bota{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-content: center;
+    align-items: center;
+    flex-direction: column;
+    cursor: pointer;
+}
+.story-bahr{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-content: center;
+    align-items: center;
+    flex-direction: column;
+    cursor: pointer;
+}
+.story img{
+
+    width: 55px;
+    border-radius: 30px;
+}
+.story-bahr img{
+
+    width: 55px;
+    border-radius: 30px;
+}.story-bota img{
+
+     width: 55px;
+     border-radius: 30px;
+ }
+.story p{
+    font-size: 12px;
+}
+
+.story-bahr p{
+    font-size: 12px;
+}
+.story-bota p{
+     font-size: 12px;
+ }
+
+
+.posts{
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+}
+
+.post-container{
+    display: flex;
+    flex-direction: column;
+    max-width: 630px;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.post-container img{
+    width: 400px;
+    border-radius: 5px;
+}
+
+.post-top{
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.post-top div{
+    display: flex;
+}
+
+.post-top p{
+    margin-top: 7px;
+    margin-left: 5px;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.post-top span{
+    padding: 0 5px;
+    color: rgba(115, 115, 115, 255);
+    font-size: 12px;
+}
+
+.post-top img {
+    width: 30px; /* Set a minimum width */
+    height: 30px; /* Set a minimum height */
+    cursor: pointer;
+}
+
+.post-top-info{
+    margin-bottom: 0;
+}
+
+
+
+
+.post-under{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+svg{
+    cursor: pointer;
+}
+
+
+.post-under a{
+    cursor: pointer;
+}
+
+.post-under-left{
+    display: flex;
+    gap: 13px;
+}
+
+.post-under-info{
+    display: flex;
+    flex-direction: column;
+    margin-top: 0;
+    border-bottom: solid 1px #e0dcdc;
+}
+.post-under-info div{
+
+    gap: 5px;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.post-under-info-user-like{
+    margin: 10px 0 0 0 ;
+    font-weight: bolder;
+    font-size: 13px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;;
+}
+.post-under-info-text{
+    margin: 10px 0 0 0 ;
+    font-size: 13px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;;
+}
+
+input {
+    margin-top: 6px;
+    margin-bottom: 15px;
+    border: none;
+    outline: none;
+}
+
+.like{
+    cursor: pointer;
+}
+.like:active path{
+    color: rgb(38, 38, 38);
+    fill: rgb(38, 38, 38);
+}
+
+.info-right{
+    margin: 45px 0 0 50px ;
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+}
+
+.info-right p{
+    font-weight: bold;
+    margin-left: 16px;
+    font-size: 13px;
+    color: rgba(115, 115, 115, 255);
+}
+
+.info-right-foot{
+    margin-top: 15px;
+    margin-left: 20px;
+    width: 250px;
+}
+
+
+.info-right img{
+    width: 300px;
+}
+.info-right a{
+    color: #e0dcdc;
+    font-size: 10px;
+}
+
+.info-right-foot-meta{
+    color: #e0dcdc;
+    font-size: 10px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+@media (max-width: 900px) {
+    .info-right {
+        display: none;
+    }
+    .main{
+        margin-left: 0;
+    }
+    .scroll{
+        margin-right: 160px;
+    }
+    .story-bahr{
+        display: none;
+    }
+    .story-bota{
+        display: none;
+    }
+
+
+}
