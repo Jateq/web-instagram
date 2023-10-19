@@ -17,6 +17,8 @@ body {
     align-items: center;
     justify-content: flex-start;
     border-right: 1px solid rgba(219,219,219,255);
+    z-index:1000;
+
 }
 
 .a-first{
@@ -173,6 +175,7 @@ main{
 }
 
 .post-top img {
+    border-radius: 15px;
     width: 30px; /* Set a minimum width */
     height: 30px; /* Set a minimum height */
     cursor: pointer;
@@ -298,6 +301,8 @@ input {
     .story-bota{
         display: none;
     }
+
+
 
 
 }

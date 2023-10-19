@@ -1,0 +1,301 @@
+
+.navbar {
+    background-color: white;
+    height: 100vh;
+    width: 65px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    border-right: 1px solid rgba(219,219,219,255);
+    z-index:1000;
+}
+
+.a-first{
+    color: white;
+    text-decoration: none;
+    margin: 0 0 12px;
+    padding: 23px 0;
+    text-align: center;
+    width: 100%;
+}
+
+.a-lasts{
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    width: 100%;
+    padding-top: 150px;
+    flex-grow: 1;
+}
+
+@media (max-height: 1208px) {
+    .a-lasts {
+        padding-top: 50px; /* Adjust padding for smaller screens */
+    }
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    margin: 12px 0;
+    text-align: center;
+    width: 100%;
+    transition: color 0.3s, transform 0.3s;
+}
+
+.navbar a:hover {
+    transform: scale(1.2);
+}
+
+
+.user{
+    width: 24px;
+    border-radius: 12px;
+}
+
+main{
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+.left{
+    margin-top: 20px;
+    margin-left: 80px;
+    display: flex;
+    flex-direction: column;
+    width: 320px;
+    border-right: solid 1px #c8c9ca;
+}
+
+.left img{
+    width: 300px;
+    opacity: 0.9;
+    transition: 0.3s;
+
+}
+.left img:hover{
+    opacity: 1.6;
+    transform: scale(1.04);
+}
+
+.left-settings{
+    margin-left: 25px;
+
+}
+
+.left-settings p{
+    margin-top: 0;
+    font-weight: bold;
+    margin-left: 8px;
+    font-size: 16px;
+}
+
+
+
+.left-settings div{
+    transition: 0.3s;
+    padding: 10px;
+    width: 235px;
+    font-size: 12px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.left-settings div:hover{
+    background-color: #e5e5e5;
+}
+
+
+.right{
+    margin-top: 40px;
+
+    margin-right: 100px;
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+}
+
+.website input{
+    margin-top: 11px;
+    padding: 5px 132px 5px 10px;
+    cursor: not-allowed;
+}
+
+.right h1{
+    font-size: 20px;
+    margin-bottom: 50px;
+    font-weight: normal;
+}
+
+.right-top{
+    display: flex;
+    gap: 30px;
+}
+
+.right-top p{
+    margin-top: 5px;
+}
+
+.right-web{
+    display: flex;
+    gap: 30px;
+    margin-left: 37px;
+
+}
+
+
+.website{
+    display: flex;
+    flex-direction: column;
+}
+.website p{
+    color: #8e8e8e;
+    font-size: 12px;
+    margin-left: 1px;
+}
+
+.right div{
+    display: flex;
+}
+
+.right img{
+    margin-left: 70px;
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+}
+
+.right-bio{
+    display: flex;
+    gap: 30px;
+}
+
+.right-bio p{
+    margin-left: 73px ;
+}
+
+.bio{
+    display: flex;
+    flex-direction: column;
+}
+
+.bio p{
+    color: #8e8e8e;
+    font-size: 12px;
+    text-align: left;
+    padding: 0;
+    margin: 8px 0 0 1px;
+}
+
+.right-bio input{
+    margin-top: 10px;
+    border: solid 1px #dbdbdb;
+    padding: 5px 132px 40px 10px;
+    border-radius: 3px;
+}
+
+.right-gender{
+    display: flex;
+    gap: 30px;
+}
+
+.right-gender p{
+    margin-left: 43px;
+}
+
+.gender{
+    display: flex;
+    flex-direction: column;
+}
+
+.gender p{
+    color: #8e8e8e;
+    font-size: 12px;
+    text-align: left;
+    padding: 0;
+    margin: 8px 0 0 1px;
+}
+
+.gender input{
+    margin-top: 10px;
+    border: solid 1px #dbdbdb;
+    padding: 5px 132px 5px 10px;
+    border-radius: 3px;
+}
+
+.right-show{
+    display: flex;
+    gap: 25px;
+}
+
+.right-show p{
+    text-align: right;
+}
+
+.show{
+    display: flex;
+    gap: 5px;
+}
+
+.show label{
+    margin-top: 20px;
+}
+
+.show span{
+    margin-top: 24px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+button{
+    background-color: #0095f6;
+    margin-left: 130px;
+    color: white;
+    padding: 7px 20px 7px 20px;
+    border: none;
+    border-radius: 7px;
+    transition: 0.3s;
+}
+
+button:hover{
+    background-color: #1a77f2
+}
+
+footer {
+    margin-top: 90px;
+    font-size: 11px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: rgba(115, 115, 115, 255);
+}
+
+footer div{
+    display: flex;
+    gap: 15px;
+}
+
+footer p{
+    cursor: pointer;
+}
+
+
+@media (max-width: 900px) {
+    .big-right{
+        display: none;
+    }
+
+    .left{
+        border-right: none
+    }
+
+
+
+
+}
+

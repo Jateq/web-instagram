@@ -1,0 +1,135 @@
+
+.navbar {
+    background-color: white;
+    height: 100vh;
+    width: 65px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    border-right: 1px solid rgba(219,219,219,255);
+    z-index:1000;
+
+}
+
+.a-first{
+    color: white;
+    text-decoration: none;
+    margin: 0 0 12px;
+    padding: 23px 0;
+    text-align: center;
+    width: 100%;
+}
+
+.a-lasts{
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    width: 100%;
+    padding-top: 150px;
+    flex-grow: 1;
+}
+
+@media (max-height: 1208px) {
+    .a-lasts {
+        padding-top: 50px; /* Adjust padding for smaller screens */
+    }
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    margin: 12px 0;
+    text-align: center;
+    width: 100%;
+    transition: color 0.3s, transform 0.3s;
+}
+
+.navbar a:hover {
+    transform: scale(1.2);
+}
+
+
+.user{
+    width: 24px;
+    border-radius: 12px;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    margin-left: 250px;
+    flex-direction: column;
+}
+
+main div{
+    display: flex;
+    gap: 5px;
+
+}
+
+.grid-four-images{
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Two equal-width columns */
+    grid-template-rows: 1fr 1fr; /* Two equal-height rows */
+    gap: 5px; /* Gap between grid items */
+    margin: 0;
+}
+
+.grid-four-images img{
+    width: 310px;
+    height: 310px;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.grid-big img{
+    width: 310px;
+    height: 620px;
+    max-width: 100%;
+    max-height: 100%;
+
+}
+
+@media (max-width: 1100px) {
+    main{
+        margin-left: 50px; /* Adjust padding for smaller screens */
+    }
+}
+.one{
+    margin-top: 30px;
+}
+
+.two{
+    margin-top: 5px;
+}
+
+.three{
+    margin-top: 5px;
+    margin-bottom: 30px;
+}
+
+footer {
+    font-family: sans-serif;
+    margin-left: 40px;
+    margin-top: 10px;
+    font-size: 11px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: rgba(115, 115, 115, 255);
+}
+
+footer div{
+    display: flex;
+    gap: 15px;
+}
+
+footer p{
+    cursor: pointer;
+}
+
+
