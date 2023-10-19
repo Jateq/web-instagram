@@ -285,6 +285,11 @@ input {
     margin-top: 10px;
 }
 
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
 @media (max-width: 900px) {
     .info-right {
         display: none;

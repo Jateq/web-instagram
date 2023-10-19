@@ -1,4 +1,170 @@
 body{
     background-color: #1a1a1a;
+    display: flex;
+    justify-content: center;
 }
 
+.cross{
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    cursor: pointer;
+}
+
+.story-bota-bahr{
+    margin-top: 15px;
+    max-width: 362px;
+    max-height: 680px;
+}
+
+.story{
+    margin-left: 500px;
+    margin-top: 15px;
+    max-width: 362px;
+    max-height: 680px;
+    margin-right: 30px;
+}
+
+.story-top{
+    position: relative;
+    width: 332px;
+    top: 65px;
+    left: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.user{
+    display: flex;
+    gap: 10px;
+}
+
+.user p{
+    margin-top: 8px;
+    font-family: sans-serif;
+    font-size: 12px;
+    color: white;
+}
+
+svg{
+    padding-right: 10px;
+    margin-top: 4px;
+}
+.dots{
+    margin-top: 0;
+}
+
+.nav-top{
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-top div{
+    display: flex;
+}
+hr{
+    width: 332px;
+}
+
+.circle{
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
+}
+
+.photo-story{
+    width: 362px;
+    height: 620px;
+    border-radius: 10px;
+
+}
+
+.story-under{
+    position: relative;
+    bottom: 55px;
+    left: 13px;
+    display: flex;
+}
+
+
+
+input{
+    width: 240px;
+    background: none;
+    border: solid 1px white;
+    color: white;
+    padding: 10px 0 10px 10px;
+    border-radius: 20px;
+}
+
+input::placeholder{
+    margin-left: 10px;
+    color: white;
+}
+
+.story-under-svg{
+    margin-top: 8px;
+}
+.story-under div{
+    margin-left: 15px;
+    display: flex;
+    gap: 1px;
+}
+
+.small-story{
+    padding: 0;
+    margin-left: 0;
+}
+
+.small-stories{
+    display: flex;
+    margin-top: 250px;
+    margin-left: 0;
+    gap: 30px;
+}
+
+.photo-small-story {
+    width: 200px;
+    height: 300px;
+    border-radius: 10px;
+}
+
+.circle-on-top-one{
+    position: absolute;
+    right: 75px;
+    bottom: 320px;
+    width: 100px;
+    border-radius: 50px;
+}
+
+.circle-on-top-two{
+    position: absolute;
+    right: 310px;
+    bottom: 320px;
+    width: 100px;
+    border-radius: 50px;
+}
+
+
+
+@media (max-width: 1300px) {
+    .small-stories{
+        display: none;
+    }
+    .circle-on-top-one{
+        display: none;
+    }
+    .circle-on-top-two{
+        display: none;
+    }
+    .circle-on-top-three{
+        display: none;
+    }
+    .circle-on-top-four{
+        display: none;
+    }
+    .story{
+        margin-left: 0;
+    }
+}
